@@ -1050,7 +1050,7 @@ svg[name=Nova_Discord] * {
 
 .headerPlaying-j0WQBV,.topSectionPlaying-1J5E4n {
 	z-index: 1;
-	background-image: url(),linear-gradient(to top right,var(--primaryGradient1),var(--primaryGradient2))
+	background-image: /*url(),*/ linear-gradient(to top right,var(--primaryGradient1),var(--primaryGradient2))
 }
 
 .headerPlaying-j0WQBV .activity-11LB_k,.topSectionPlaying-1J5E4n .headerFill-adLl4x {
