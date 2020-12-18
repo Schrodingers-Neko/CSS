@@ -1810,6 +1810,36 @@ svg[name=Nitro] g path {
 	border-radius: 50px
 }
 
+/*new messages bar*/
+
+.newMessagesBar-265mhP{
+  
+    opacity: 0.75;
+    background-image: linear-gradient(135deg,var(--primaryGradient1),var(--primaryGradient2));
+  
+}
+
+/*unread messages bar*/
+
+.unread-1xRYoj {
+	background-image: linear-gradient(135deg, var(--primaryGradient1), var(--primaryGradient2));
+    opacity:0.75
+}
+
+/*jump to present bar*/
+
+.jumpToPresentBar-G1R9s6{
+  background-image: linear-gradient(135deg, var(--primaryGradient1), var(--primaryGradient2));
+  opacity: 0.75;
+}
+
+
+/*unread red dots*/
+
+.numberBadge-2s8kKX{
+  background-image: linear-gradient(135deg, var(--primaryGradient1), var(--primaryGradient2));
+}
+
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
 	border-radius: 50%;
 	background-color: rgba(0,0,0,.35)!important
@@ -1961,10 +1991,6 @@ svg[name=Nitro] g path {
 	text-shadow: 0 0 5px #000
 }
 
-.unread-1xRYoj {
-	background-color: var(--primaryGradient1)
-}
-
 .markup-2BOw-j pre {
 	background-color: var(--backgroundDark)!important
 }
@@ -2022,7 +2048,6 @@ svg[name=Nitro] g path {
 
 .app-2rEoOp .bannerImage-1jOskm {
 	-webkit-mask-image: linear-gradient(#000 0,transparent 100%);
-	mask-image: linear-gradient(#000 0,transparent 100%)
 }
 
 .header-2o-2hj {
