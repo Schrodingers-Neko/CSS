@@ -2292,6 +2292,22 @@ svg.slider-TkfMQL svg {
 	
 }
 
+/*Agree to Rules*/
+
+.guildSidebar-2OCzWB {
+background-color: var(--backgroundDark);
+}
+.content-1LAB8Z {
+background: var(--backgroundDarker);
+}
+.formFieldWrapper-malor5, .settingsFormFieldWrapper-3Y77Pr {
+border: 1px solid var(--backgroundDark);
+}
+.formFieldWrapper-malor5 {
+background-color: var(--backgroundDark);
+}
+
+
 /* Base.css */
 
 #app-mount .wrapper-3t9DeA svg:not(:root) {
