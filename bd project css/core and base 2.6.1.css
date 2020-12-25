@@ -2243,6 +2243,37 @@ svg.slider-TkfMQL svg {
     transform: translateX(0)
 }
 
+
+/*Discover sidebar*/
+
+
+.sidebar-2K8pFh {
+  background: var(--backgroundDarker);
+}
+
+
+/*Create New Server*/
+
+.header-3msK0M {
+  overflow: hidden;
+}
+
+.subtitle-Nw1LLR, .title-3w8xhj {
+  color: #a5b7d2;
+}
+
+.container-UC8Ug1 {
+  background-color: #11324f;
+}
+
+/*button in server members list*/
+
+.button-38aScr.lookBlank-3eh9lL.colorTransparent-1ewNp9.sizeIcon-1-kvKI.grow-q77ONN{
+    
+background: var(--backgroundDark) !important;
+
+}
+
 /* Base.css */
 
 #app-mount .wrapper-3t9DeA svg:not(:root) {
@@ -2412,37 +2443,3 @@ svg.slider-TkfMQL svg {
 #app-mount .wrapper-3t9DeA:before {
   content: none !important;
 }
-
-
-/* patch 1 */
-
-/*Discover sidebar*/
-
-
-.sidebar-2K8pFh {
-  background: var(--backgroundDarker);
-}
-
-
-/*Create New Server*/
-
-.header-3msK0M {
-  overflow: hidden;
-}
-
-.subtitle-Nw1LLR, .title-3w8xhj {
-  color: #a5b7d2;
-}
-
-.container-UC8Ug1 {
-  background-color: #11324f;
-}
-
-.button-38aScr{
-
-/*button in server members list*/
-	
-background: var(--backgroundDark) !important;
-
-}
-
