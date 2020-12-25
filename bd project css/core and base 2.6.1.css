@@ -2311,6 +2311,11 @@ background-color: var(--backgroundDark);
 background-color: var(--backgroundDarker);
 }
 
+.notice-3uyY6c {
+ background-color:var(--backgroundDarker);
+}
+
+
 /* Base.css */
 
 #app-mount .wrapper-3t9DeA svg:not(:root) {
