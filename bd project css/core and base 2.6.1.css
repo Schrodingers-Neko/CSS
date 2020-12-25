@@ -2270,8 +2270,14 @@ svg.slider-TkfMQL svg {
 
 .button-38aScr.lookBlank-3eh9lL.colorTransparent-1ewNp9.sizeIcon-1-kvKI.grow-q77ONN{
     
-background: var(--backgroundDark) !important;
+  background: var(--backgroundDark) !important;
 
+}
+
+.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN{
+
+  background: var(--backgroundDarker) !important;
+	
 }
 
 /* Base.css */
