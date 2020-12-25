@@ -2246,11 +2246,9 @@ svg.slider-TkfMQL svg {
 
 /*Discover sidebar*/
 
-
 .sidebar-2K8pFh {
   background: var(--backgroundDarker);
 }
-
 
 /*Create New Server*/
 
@@ -2283,6 +2281,12 @@ svg.slider-TkfMQL svg {
 }
 
 .button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN{
+
+  background: var(--backgroundDark) !important;
+	
+}
+
+.addButton-3bLyEA.forceVisible-2L54of.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN{
 
   background: var(--backgroundDark) !important;
 	
