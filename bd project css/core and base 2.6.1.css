@@ -2278,7 +2278,13 @@ svg.slider-TkfMQL svg {
 
 .button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN{
 
-  background-color: #031018 !important;
+  background: #031018 !important;
+	
+}
+
+.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN{
+
+  background: var(--backgroundDark) !important;
 	
 }
 
