@@ -2334,3 +2334,21 @@ background-color: var(--backgroundDarker);
 .notice-3uyY6c {
  background-color:var(--backgroundDarker);
 }
+
+/*March 24th Update Patch*/
+
+/*sidebar scroller*/
+
+.scroller-1Bvpku{
+  background-color: var(--backgroundDarker);
+}
+
+/*Folder*/
+
+.folder-1hbNCn{
+  background-color: var(--backgroundDark);
+}
+
+.expandedFolderBackground-1cujaW{
+  background-color: var(--backgroundDark);
+}
