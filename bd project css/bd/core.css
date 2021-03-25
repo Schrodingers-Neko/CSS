@@ -2352,3 +2352,10 @@ background-color: var(--backgroundDarker);
 .expandedFolderBackground-1cujaW{
   background-color: var(--backgroundDark);
 }
+
+/*Others*/
+/*Hide Scroller*/
+
+.scroller-2LSbBU {
+overflow: hidden;
+}
