@@ -86,7 +86,7 @@
 }
 
 .scroller-305q3I {
-	background-color: var(--backgroundDarker)
+	background-color: var(--backgroundDark)
 }
 
 .theme-dark .tierHeaderUnlocked-2RhWqn {
@@ -2350,6 +2350,14 @@ background-color: var(--backgroundDarker);
 }
 
 .expandedFolderBackground-1cujaW{
+  background-color: var(--backgroundDark);
+}
+
+/*March 28th*/
+
+/*Edit Roles*/
+
+.scroller-305q3I.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2{
   background-color: var(--backgroundDark);
 }
 
