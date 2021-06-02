@@ -2353,7 +2353,7 @@ background-color: var(--backgroundDarker);
   background-color: var(--backgroundDark);
 }
 
-/*March 28th*/
+/*2021-03-28 Update Patch*/
 
 /*Edit Roles*/
 
@@ -2361,15 +2361,51 @@ background-color: var(--backgroundDarker);
   background-color: var(--backgroundDark);
 }
 
-/*Others*/
-/*Hide Scroller*/
-
-.scroller-2LSbBU {
-overflow: hidden;
-}
-
 /*Loading Screen*/
 
 .container-16j22k.fixClipping-3qAKRb{
 	background-color: var(--backgroundDark);
+}
+
+/*2021-06-02 Update Patch*/
+
+#private-channels-0{
+	display:none;
+}
+
+.container-lRFx4q{
+	background: var(--backgroundDark);
+}
+
+.section-2gLsgF{
+	background: var(--backgroundDark);
+	opacity: 1;
+}
+
+.peopleListItem-2nzedh:hover, .wrapper-3D2qGf{
+  background: var(--backgroundDarker)!important;
+	opacity: 1;
+}
+
+.circleIconButton-1QV--U {
+ color:#3ba55c;
+ background-color:var(--backgroundDark);
+}
+
+.container-24CyRY{
+	background: var(--backgroundDark);
+}
+
+.container-S9SaVf{
+	background:var(--backgroundDarker)!important;
+}
+
+/*Remove Scrollbars*/
+
+.scrollerBase-289Jih{
+	scrollbar-width:none;
+}
+
+.scrollerBase-289Jih::-webkit-scrollbar{
+	display:none;
 }
