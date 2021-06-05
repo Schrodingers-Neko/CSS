@@ -2426,7 +2426,7 @@ background-color: var(--background2);
 
   /*Notes*/
 
-.textarea-2r0oV8:focus{
+.textarea-2r0oV8:hover,:focus{
   background:var(--background2)!important;
   box-shadow: inset 0 0 100000px 0 rgba(0, 0, 0, .25) !important;
 }
@@ -2449,7 +2449,7 @@ background-color: var(--background2);
   color: #fff !important;
 }
 
-.iconButtonSize-8raSoG:hover:{
+.iconButtonSize-8raSoG:hover{
 	color: #fff !important;
   border: 1.5px solid transparent !important;
   background-color: var(--primary);
@@ -2460,6 +2460,13 @@ background-color: var(--background2);
 }
 
 .inputDefault-_djjkz.input-cIJ7To.input-2_SIlA{
-	background:var(--background1);
+	background:var(--background2);
 	border:none;
+	box-shadow: inset 0 0 100000px 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+.inputDefault-_djjkz.input-cIJ7To.input-2_SIlA:hover,:focus{
+	background:var(--background2);
+	border:none;
+	box-shadow: inset 0 0 100000px 0 rgba(0, 0, 0, .25) !important;
 }
