@@ -2442,14 +2442,14 @@ background-color: var(--background2);
   background:var(--background2);
 }
 
-.iconButtonSize-8raSoG{
+.iconButtonSize-8raSoG,.buttonSize-AQY2mE.grow-q77ONN.fullWidth-1orjjo{
 	background-color: rgba(0,0,0,.5) !important;
   border: 1.5px solid var(--primary) !important;
   border-radius: 20px !important;
   color: #fff !important;
 }
 
-.iconButtonSize-8raSoG:hover{
+.iconButtonSize-8raSoG:hover,.buttonSize-AQY2mE.grow-q77ONN.fullWidth-1orjjo:hover{
 	color: #fff !important;
   border: 1.5px solid transparent !important;
   background-color: var(--primary);
@@ -2457,6 +2457,12 @@ background-color: var(--background2);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 200% 200%;
+}
+
+.disabledButtonWrapper-3wH6-b.buttonSize-AQY2mE.grow-q77ONN.fullWidth-1orjjo{
+  color: #aaa;
+	background:rgba(0,0,0,0.5)!important;
+	border: 1.5px solid var(--secondary) !important;
 }
 
 .inputDefault-_djjkz.input-cIJ7To.input-2_SIlA{
