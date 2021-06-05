@@ -167,3 +167,27 @@
 #app-mount .wrapper-3t9DeA:before {
   content: none !important;
 }
+
+/*June 4th Settings - Profile Banner Preview Patch*/
+
+
+#app-mount .avatar-2PN2-j.wrapper-3t9DeA[style*="width: 80px;"] {
+    position:absolute;}
+
+#app-mount .wrapper-3t9DeA foreignObject {
+  clip-path: circle(40px at center);
+}
+
+.avatar-2PN2-j {
+  border: 0px solid var(--background3);
+}
+
+.avatar-2PN2-j, .profileBackgroundPreview-3BVL0Q{
+    background:var(--background2);
+    position:relative;
+}
+
+.previewProfile-_oCk35{
+    position:relative;
+    border: 1px solid var(--primary);
+}
