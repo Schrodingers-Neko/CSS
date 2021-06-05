@@ -927,7 +927,7 @@ svg[name=Nova_Discord] * {
 	background-color: rgba(0,0,0,.5)!important;
 	border: 1.5px solid var(--primary)!important;
 	border-radius: 6px!important;
-	color: #fff!important
+	color: #fff!important;
 }
 
 #bd-settingspane-container .bd-pfbtn:hover,#friends .tab-bar .tab-bar-item.tab-bar-item-primary,.bd-detached-css-editor #bd-customcss-attach-controls button:hover,.bd-modal-wrapper .footer button:hover,.bda-slist .bda-footer button:hover,.headerButtonColor-G7_f-V:hover,.lookFilled-1Gx00P.colorBrand-3pXr91:hover,.lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,.lookOutlined-3sRXeN.colorBrand-3pXr91:hover,.plugin-settings button:hover,.questionMark-CWEQZn:hover,.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover,.tabBar-1E2ExX .primary-3j8BhM:hover,.topPill-30KHOu .itemSelected-1qLhcL {
@@ -2420,4 +2420,46 @@ background-color: var(--background2);
 }
 .body-3iLsc4.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2{
   background:var(--background2) !important;
+}
+
+/*Patch No.2*/
+
+  /*Notes*/
+
+.textarea-2r0oV8:focus{
+  background:var(--background2)!important;
+  box-shadow: inset 0 0 100000px 0 rgba(0, 0, 0, .25) !important;
+}
+
+.note-3HfJZ5 {
+  margin-left: -2px !important;
+  margin-right: 4px !important;
+}
+
+  /*Activity*/
+
+.activityUserPopout-2yItg2.activity-fViXj7.newPopoutActivityStyles{
+  background:var(--background2);
+}
+
+.iconButtonSize-8raSoG{
+	background-color: rgba(0,0,0,.5) !important;
+  border: 1.5px solid var(--primary) !important;
+  border-radius: 20px !important;
+  color: #fff !important;
+}
+
+.iconButtonSize-8raSoG:hover:{
+	color: #fff !important;
+  border: 1.5px solid transparent !important;
+  background-color: var(--primary);
+  background-image: linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200% 200%;
+}
+
+.inputDefault-_djjkz.input-cIJ7To.input-2_SIlA{
+	background:var(--background1);
+	border:none;
 }
