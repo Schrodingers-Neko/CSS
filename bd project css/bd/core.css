@@ -1,7 +1,7 @@
 :root {
   --background1: #102040;
-  --background2: #0A102A;
-  --background3: #070A20;
+  --background2: #0A1530;
+  --background3: #071025;
   --primary: #be38f3;
   --primaryGradient1: var(--primary);
   --primaryGradient2: #00d5d0;
@@ -23,7 +23,6 @@
   --rs-streaming-color: #643da7;
   --rs-invisible-color: #00d0ff;
 }
-
 
 .wrapper-3vR61M, .wrapper-1F5TKx {
 	background-color: transparent;
@@ -2067,7 +2066,8 @@ svg[name=Nitro] g path {
 }
 
 .container-1giJp5,.container-3baos1 {
-	background-color: var(--background1)!important
+	background-color: var(--background2);
+	box-shadow: inset 0 0 100000px 0 rgba(0, 0, 0, .2) !important;
 }
 
 .container-1giJp5 {
@@ -2285,10 +2285,6 @@ svg.slider-TkfMQL svg {
  overflow: hidden;
 }
 
-.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
-  background: var(--background2);	
-}
-
 /*New Server - Join Server*/
 
 .footerButton-ayFTfX.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeMedium-1AC_Sl.grow-q77ONN{
@@ -2298,18 +2294,6 @@ svg.slider-TkfMQL svg {
 /*button in server members list*/
 
 .button-38aScr.lookBlank-3eh9lL.colorTransparent-1ewNp9.sizeIcon-1-kvKI.grow-q77ONN{    
-  background: var(--background1) !important;
-}
-
-/*text input bar button color fix*/
-
-.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN{
-  background: #031018 !important;	
-}
-.button-14-BFJ.enabled-2cQ-u7.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN{
-  background: var(--background1) !important;
-}
-.addButton-3bLyEA.forceVisible-2L54of.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN{
   background: var(--background1) !important;
 }
 
@@ -2407,4 +2391,33 @@ background-color: var(--background2);
 
 .scrollerBase-289Jih::-webkit-scrollbar{
 	display:none;
+}
+
+/*June 4th 2021*/
+  
+  /*Button Hover*/
+
+    /*Bottom Left Buttons*/
+
+.button-14-BFJ.enabled-2cQ-u7:hover {
+  background:var(--background3);
+}
+
+    /*Folder Hover*/
+
+.folder-1hbNCn.hover-qTxTR_{
+  background-color:var(--background2);
+}
+
+  /*About Me & Banner Update*/
+
+.headerTop-2cWpdB{
+  background:var(--background2);
+  border:none;
+}
+.aboutMeSection---MkQa{
+  background:var(--background2);
+}
+.body-3iLsc4.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2{
+  background:var(--background2) !important;
 }
