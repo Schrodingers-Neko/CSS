@@ -2873,8 +2873,7 @@ svg.slider-TkfMQL svg {
 
 /*Notes*/
 
-.textarea-2r0oV8:hover,
-:focus {
+.note-3HfJZ5:hover,.userPopout-3XzG_A:focus {
 	background: var(--background2)!important;
 	box-shadow: inset 0 0 100000px 0 rgba(0, 0, 0, .25) !important;
 }
@@ -2923,7 +2922,7 @@ svg.slider-TkfMQL svg {
 }
 
 .inputDefault-_djjkz.input-cIJ7To.input-2_SIlA:hover,
-:focus {
+.inputDefault-_djjkz.input-cIJ7To.input-2_SIlA:focus {
 	background: var(--background2);
 	border: none;
 	box-shadow: inset 0 0 100000px 0 rgba(0, 0, 0, .25) !important;
@@ -2945,4 +2944,3 @@ svg.slider-TkfMQL svg {
 	background-repeat: no-repeat;
 	background-size: 200% 200%;
 }
-
