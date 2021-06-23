@@ -3023,49 +3023,42 @@ svg.slider-TkfMQL svg {
 
 #app-mount .wrapper-3t9DeA rect[fill="#43b581"],
 #app-mount .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"],
-#app-mount .wrapper-3t9DeA rect[mask*=online] {
+#app-mount .wrapper-3t9DeA rect[mask="url(#svg-mask-status-online)"] {
 	stroke: var(--rs-online-color);
-        width: 120px;
-        height: 120px;
+  width: 120px;
+  height: 120px;
 }
 }
 
-#app-mount .wrapper-3t9DeA rect[fill="#faa61a"],
-#app-mount .wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"],
-#app-mount .wrapper-3t9DeA rect[mask*=idle] {
+/*#app-mount .wrapper-3t9DeA rect[fill="#faa61a"],
+#app-mount .wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"],*/
+#app-mount .wrapper-3t9DeA rect[mask="url(#svg-mask-status-idle)"] {
 	stroke: var(--rs-idle-color);
-        width: 120px;
-        height: 120px;
+  width: 120px;
+  height: 120px;
 }
 
-#app-mount .wrapper-3t9DeA rect[fill="#f04747"],
-#app-mount .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"],
-#app-mount .wrapper-3t9DeA rect[mask*=dnd] {
+/*#app-mount .wrapper-3t9DeA rect[fill="#f04747"],
+#app-mount .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"],*/
+#app-mount .wrapper-3t9DeA rect[mask="url(#svg-mask-status-dnd)"] {
 	stroke: var(--rs-dnd-color);
 	width: 120px;
-        height: 120px;
+  height: 120px;
 }
 
-#app-mount .wrapper-3t9DeA rect[fill="#593695"],
-#app-mount .wrapper-3t9DeA rect[mask*=streaming] {
+/*#app-mount .wrapper-3t9DeA rect[fill="#593695"],*/
+#app-mount .wrapper-3t9DeA rect[mask="url(#svg-mask-status-streaming)"] {
 	stroke: var(--rs-streaming-color);
 	width: 120px;
-        height: 120px;
+  height: 120px;
 }
 
-#app-mount .wrapper-3t9DeA rect[fill="#747f8d"],
-#app-mount .wrapper-3t9DeA rect[mask*=offline],
-#app-mount .wrapper-3t9DeA rect[fill=NaN] {
+/*#app-mount .wrapper-3t9DeA rect[fill="#747f8d"],*/
+#app-mount .wrapper-3t9DeA rect[mask="url(#svg-mask-status-offline)"],
+{
 	stroke: var(--rs-offline-color);
 	width: 120px;
-        height: 120px;
-}
-
-#app-mount .wrapper-3t9DeA rect[mask*=invisible],
-#app-mount .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] {
-	stroke: var(--rs-invisible-color);
-	width: 120px;
-        height: 120px;
+  height: 120px;
 }
 
 #app-mount .wrapper-3t9DeA rect[x="16"] {
@@ -3201,4 +3194,19 @@ svg.slider-TkfMQL svg {
 	border: 1px solid var(--primary);
 }
 
+/*June 22nd Avatar Hint Boxshadow (view profile)*/
 
+[mask="url(#svg-mask-avatar-status-round-80)"]{
+  mask:none;
+  clip-path: circle(37px at center)
+}
+
+/*June 22nd Profile pop-up background fix*/
+
+.textarea-2r0oV8.inputDefault-_djjkz.input-cIJ7To.scrollbarGhostHairline-1mSOM1.scrollbar-3dvm_9:focus{
+	background:var(--background3);
+}
+
+[placeholder="Click to add a note"]{
+	height:45px!important;
+}
