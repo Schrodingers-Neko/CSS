@@ -2259,10 +2259,6 @@ svg[name=Nitro] g path {
     transform: translateX(0)
 }
 
-.container-1r6BKw {
-    background: var(--background1)!important
-}
-
 .base-3dtUhz {
     border-radius: 0!important
 }
@@ -2274,10 +2270,6 @@ svg[name=Nitro] g path {
 
 .tile-QA_yMc {
     background: var(--background2)!important
-}
-
-.container-1r6BKw {
-    background: var(--background1)!important
 }
 
 .topPill-30KHOu .item-PXvHYJ {
@@ -2932,6 +2924,7 @@ svg.slider-TkfMQL svg {
     background: var(--background2);
     border: none;
     box-shadow: inset 0 0 100000px 0 rgba(0, 0, 0, 0.15) !important;
+    width: 268px;
 }
 
 .inputDefault-_djjkz.input-cIJ7To.input-2_SIlA:hover,
@@ -3011,8 +3004,6 @@ svg.slider-TkfMQL svg {
     background: var(--background3);
 }
 
-[placeholder="Click to add a note"] {
-    height: 45px!important;
 }
 
 .body-3HBlXn {
@@ -3058,6 +3049,68 @@ svg.slider-TkfMQL svg {
   border-top-right-radius: 8px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+}
+
+/*August 10th 2021 update*/
+
+/*user popout*/
+
+[placeholder="Click to add a note"] {
+    height: 45px!important;
+    margin-left: 4px;
+    width: 268px;
+    margin-right: 4px;
+}
+
+/*Threads*/
+.threadSidebar-1o3BTy{
+    border:none;
+}
+
+.container-2w6o5e{
+    background:var(--background1);
+    border:solid rgba(0,0,0,0);
+}
+
+.popout-VcNcHB.none-2Eo-qx.scrollerBase-289Jih{
+    background:var(--background2);
+    border:none;
+
+}
+
+.option-3KoAJB.dropdownOption-3HD1iy{
+    background:var(--background2);
+}
+
+.option-3KoAJB.dropdownOption-3HD1iy:hover{
+    background:var(--background1);
+    border:none;
+}
+
+
+.select-2fjwPw.lookFilled-22uAsw{
+    background:var(--background2);
+    border: none;
+}
+
+.iconWrapper-L3hQuc{
+    background:var(--background2);
+}
+
+.chat-15Vmww,.form-2fGMdU{
+    background: var(--background2);
+}
+
+/*Mac Top left buttons*/
+
+.macButtons-2MuSAC.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyBetween-2tTqYu.alignCenter-1dQNNs{
+    background:var(--background3);
+    margin: 0px 0px !important;
+    width: 72px;
+}
+
+.container-1r6BKw.themed-ANHk51{
+    background:var(--background2);
 }
 
 
@@ -3507,3 +3560,8 @@ svg.slider-TkfMQL svg {
 #app-mount .wrapper-3t9DeA:before {
     content: none !important;
 }
+
+.userPopout-xaxa6l,.bodyInnerWrapper-26fQXj,.footer-3UKYOU{
+    background:var(--background2);
+}
+
