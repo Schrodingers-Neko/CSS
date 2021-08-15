@@ -4,6 +4,7 @@
     --background1: #102040;
     --background2: #0A1530;
     --background3: #071025;
+    --background4: #030712;
     --primary: #be38f3;
     --primaryRGB: 190, 56, 243;
     --primaryGradient1: var(--primary);
@@ -2600,9 +2601,7 @@ svg.slider-TkfMQL svg {
     display: none;
 }
 
-.container-3auIfb:not([style*="125"]) {
-    background-color: var(--primaryGradient1) !important;
-}
+
 
 
 /* Channels Nov 2020 */
@@ -3130,6 +3129,63 @@ svg.slider-TkfMQL svg {
 }
 
 
+/*Aug 14th 2021 settings patch*/
+
+.bd-search-wrapper{
+    background:var(--background1);
+}
+
+.bd-addon-list .bd-addon-header, .bd-addon-card.settings-closed{
+    background:var(--background1);
+    box-shadow:none;
+}
+
+.container-3auIfb[style^="opacity: 1; background-color: hsl(2"]{
+    background-color:var(--background1)!important;
+
+}
+
+.container-3auIfb[style^="opacity: 1; background-color: hsl(19"]{
+    background-color:var(--background1)!important;
+
+}
+
+.container-3auIfb[style^="opacity: 1; background-color: hsl(18"]{
+    background-color:var(--background1)!important;
+
+}
+
+.container-3auIfb[style^="opacity: 1; background-color: hsl(17"]{
+    background-color:var(--background1)!important;
+
+}
+
+.container-3auIfb[style^="opacity: 1; background-color: hsl(16"]{
+    background-color:var(--background1)!important;
+
+}
+
+.container-3auIfb{
+    background-color: var(--primaryGradient1) !important;
+}
+
+.item-26Dhrx[aria-checked="false"]{
+    background:var(--background1);
+    color:#fff;
+}
+
+.item-26Dhrx[aria-checked="true"]{
+    background:var(--background3);
+    color:#fff;
+}
+
+.item-26Dhrx[aria-checked="true"][role="radio"]:hover{
+    background:var(--background4);
+}
+
+.item-26Dhrx:hover[role="radio"]{
+    background:var(--background3);
+}
 
 
 /* Base.css */
