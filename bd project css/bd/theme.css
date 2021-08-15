@@ -2977,16 +2977,27 @@ svg.slider-TkfMQL svg {
 
 /*June 23rd Reaction Emotes*/
 
-.reaction-1hd86g {
-    background-color: rgba(0, 0, 0, .5) !important;
-    border: 1.5px solid rgba(var(--primaryRGB), 0.75) !important;
-    border-radius: 6px !important;
+.reaction-1hd86g{
+    background-color: rgba(0, 0, 0, .5);
+    border: 1.5px solid rgba(var(--primaryGradient1RGB), 0.75);
+    border-radius: 6px;
 }
 
 .reaction-1hd86g:hover {
-    background-color: rgba(0, 0, 0, 1) !important;
-    border: 1.5px solid rgba(var(--primaryRGB), 1) !important;
+    background-color: rgba(0, 0, 0, 1);
+    border: 1.5px solid rgba(var(--primaryGradient1RGB), 1);
 }
+.reaction-1hd86g.reactionMe-wv5HKu{
+    background-color: rgba(0, 0, 0, .5);
+    border: 1.5px solid rgba(var(--primaryGradient2RGB), 0.75);
+    border-radius: 6px;
+}
+
+.reaction-1hd86g.reatctionMe-wv5HKu:hover {
+    background-color: rgba(0, 0, 0, 1);
+    border: 1.5px solid rgba(var(--primaryGradient2RGB), 1);
+}
+
 
 
 
@@ -3061,6 +3072,11 @@ svg.slider-TkfMQL svg {
     width: 268px;
     margin-right: 4px;
 }
+
+.userPopout-xaxa6l,.bodyInnerWrapper-26fQXj,.footer-3UKYOU{
+    background:var(--background2);
+}
+
 
 /*Threads*/
 .threadSidebar-1o3BTy{
@@ -3559,9 +3575,5 @@ svg.slider-TkfMQL svg {
 
 #app-mount .wrapper-3t9DeA:before {
     content: none !important;
-}
-
-.userPopout-xaxa6l,.bodyInnerWrapper-26fQXj,.footer-3UKYOU{
-    background:var(--background2);
 }
 
