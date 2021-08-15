@@ -1,6 +1,7 @@
 /*core.css*/
 
 :root {
+    --background0: #142851;
     --background1: #102040;
     --background2: #0A1530;
     --background3: #071025;
@@ -257,7 +258,8 @@
 
 .theme-dark .footer-1FPmkC,
 .theme-dark .footer-2gL1pp {
-    background-color: var(--background2)
+    background-color: var(--background1);
+    box-shadow: none;
 }
 
 .channelHeader-3Gd2xq,
@@ -2663,19 +2665,9 @@ svg.slider-TkfMQL svg {
 }
 
 .container-UC8Ug1 {
-    background-color: #11324f;
+    background:var(--background1);
 }
 
-.footerButton-ayFTfX.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeMedium-1AC_Sl.grow-q77ONN {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    border-radius: 50px !important;
-    border: solid 1.5px var(--primary);
-}
-
-.footerButton-ayFTfX.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeMedium-1AC_Sl.grow-q77ONN:hover {
-    background-image: linear-gradient(135deg, var(--primaryGradient1), var(--primaryGradient2));
-    border: none;
-}
 
 .subtitle-Nw1LLR,
 .title-3w8xhj {
@@ -2698,13 +2690,39 @@ svg.slider-TkfMQL svg {
     overflow: hidden;
 }
 
+.footerTitle-2CYZch.base-1x0h_U.size20-17Iy80{
+    color:rgba(255,255,255,0.8);
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+#uid_44,#uid_54{
+    background:var(--background2);
+}
+
+.title-LqAd9K, .title-Z_XiOC{
+    color:#fff;
+}
+
+.button-38aScr{
+    color:#fff
+}
+
+.inputDefault-_djjkz{
+    color:#fff;
+}
 
 /*New Server - Join Server*/
 
 .footerButton-ayFTfX.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeMedium-1AC_Sl.grow-q77ONN {
     background-image: linear-gradient(135deg, var(--primaryGradient1), var(--primaryGradient2));
+    color:rgba(255,255,255,0.9);
 }
 
+.footerButton-ayFTfX.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeMedium-1AC_Sl.grow-q77ONN:hover{
+    background-image: linear-gradient(90deg, var(--primaryGradient1), var(--primaryGradient2));
+    color: #fff;
+}
 
 /*button in server members list*/
 
@@ -2720,8 +2738,16 @@ svg.slider-TkfMQL svg {
 }
 
 .content-1LAB8Z {
-    background: var(--background2);
+    /* background-image: linear-gradient(180deg,var(--background2),var(--background1)); */
 }
+
+.templatesList-2E6rTe{
+    margin-top: 0px;
+    padding-top: 24px;
+}
+
+
+.content-1LAB8Z.templatesList-2E6rTe.thin-1ybCId.scrollerBase-289Jih {}
 
 .formFieldWrapper-malor5,
 .settingsFormFieldWrapper-3Y77Pr {
@@ -3186,6 +3212,15 @@ svg.slider-TkfMQL svg {
 .item-26Dhrx:hover[role="radio"]{
     background:var(--background3);
 }
+
+
+/*Discord Hubs*/
+
+.sidebarContainer-7fi3LO{
+    background:var(--background3);
+}
+
+
 
 
 /* Base.css */
