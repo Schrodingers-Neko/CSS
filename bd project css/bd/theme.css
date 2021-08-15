@@ -2462,10 +2462,7 @@ svg[name=Nitro] g path {
 
 /* change icons
    *gradient png
-   *5-cell (4d tetrahedron) https://i.imgur.com/mrRE5BG.gif
-   *Neon https://i.imgur.com/KhisFgO.gif
-   *King https://i.imgur.com/WVFRbND.gif
-   *Sweaty uwu
+
   */
 
 
@@ -3217,6 +3214,25 @@ svg.slider-TkfMQL svg {
 /*Discord Hubs*/
 
 .sidebarContainer-7fi3LO{
+    background:var(--background3);
+}
+
+
+/*update status*/
+
+.option-3KoAJB[aria-selected=true]{
+    background:var(--background3);
+}
+
+.option-3KoAJB[aria-selected=true]:hover{
+    background:var(--background4);
+}
+
+.option-3KoAJB[aria-selected=false]{
+    background:var(--background2);
+}
+
+.option-3KoAJB[aria-selected=false]:hover{
     background:var(--background3);
 }
 
