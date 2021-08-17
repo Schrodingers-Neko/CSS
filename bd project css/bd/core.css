@@ -61,7 +61,7 @@
 }
 
 .scroller-2XE8rp {
-    background-color: var(--background1)
+    background-color: var(--background1);
 }
 
 .ctaBar-2UsjF2,
@@ -78,19 +78,19 @@
 
 .guildHeader-3nh5RK,
 .subscribeTooltipWrapper-32-Ce8 {
-    background-color: var(--background2)
+    background-color: var(--background2);
 }
 
 .guildSubscriptionSlots-JPXXvN {
-    background-color: var(--background2)
+    background-color: var(--background2);
 }
 
 .detailsBlock-FoDTGA {
-    background-color: var(--background1)
+    background-color: var(--background1);
 }
 
 .scroller-305q3I {
-    background-color: var(--background1)
+    background-color: var(--background1);
 }
 
 .theme-dark .tierHeaderUnlocked-2RhWqn {
@@ -331,7 +331,7 @@
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx,
 .actionButton-uPB8Fs,
 .inset-3sAvek {
-    background-color: rgba(0, 0, 0, .45) !important
+    background-color: rgba(0, 0, 0, .45);
 }
 
 .modal-yWgWj-,
@@ -361,7 +361,7 @@
 
 .actionButton-uPB8Fs.highlight-Lf97TE {
     background: linear-gradient(to top left, var(--primaryGradient1), var(--primaryGradient2))!important;
-    box-shadow: inset 0 0 100000px 0 rgba(0, 0, 0, .5)!important;
+    box-shadow: inset 0 0 100000px 0 rgba(0, 0, 0, .5);
 }
 
 [role="img"][aria-label]:before {
@@ -418,7 +418,7 @@
 }
 
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
-    background-color: var(--background1);
+    background-color: var(--background3);
 }
 
 .platform-win .sidebar-2K8pFh {
@@ -852,7 +852,7 @@ div[data-contents="true"] {
 .hljs,
 .markup-2BOw-j code,
 .markup-2BOw-j code.inline {
-    background-color: rgba(0, 0, 0, .25)!important
+    background-color: rgba(0, 0, 0, .25);
 }
 
 .hljs {
@@ -1300,12 +1300,14 @@ svg[name=Nova_Discord] * {
 
 ::-webkit-scrollbar {
     border: none!important;
-    width: 6px!important
+    width: 6px!important;
+    height: 6px!important;
 }
+
 
 ::-webkit-scrollbar-track {
     border: none!important;
-    background: var(--background1)!important
+    background: var(--background2)!important
 }
 
 ::-webkit-scrollbar-track-piece {
@@ -1314,7 +1316,7 @@ svg[name=Nova_Discord] * {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, .45)!important;
+    background: var(--background1)!important;
     border-radius: 20px!important;
     border: none!important
 }
@@ -3265,4 +3267,40 @@ svg.slider-TkfMQL svg {
 
 .overflowMenuIcon-1h7e8s{
     margin-right: 10px;
+}
+
+.codeView-1JPDeA{
+    background:var(--background3);
+}
+
+
+.textContainer-C0szpm, .textContainer-C0szpm.expanded-2itZLW{
+    background:var(--background3);
+    border: 1px solid var(--background0);
+    border-bottom:none;
+    border-radius:4px 4px 0px 0px;
+
+
+}
+
+.colorHeaderSecondary-3Sp3Ft.size14-e6ZScH.footer-2yA7Ep{
+    background:var(--background2);
+    border: 1px solid var(--background0);
+    border-top:none;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.actionButton-uPB8Fs:hover{
+    background-color:rgba(0,0,0,0);
+    background: linear-gradient(to top left, var(--primaryGradient1), var(--primaryGradient2))!important;
+    box-shadow:none;  
+}
+
+.tooltipContent-bqVLWK{
+    background: var(--background0);
+    border-radius:4px;
+}
+
+.tooltipPointer-3ZfirK{
+    border-top-color: var(--background0)!important;
 }
