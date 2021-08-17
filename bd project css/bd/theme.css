@@ -1089,6 +1089,7 @@ svg[name=Nova_Discord] * {
     border: 1.5px solid var(--primary)!important;
     border-radius: 6px!important;
     color: #fff!important;
+    /* margin-left: 10px; */
 }
 
 #bd-settingspane-container .bd-pfbtn:hover,
@@ -2583,10 +2584,6 @@ input.da-input:focus {
     background-color: transparent;
 }
 
-.fieldList-21DyL8,
-.connection-1fbD7X {
-    background-color: var(--background2) !important;
-}
 
 .lookFilled-1Gx00P.colorGrey-2DXtkV .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
     background-image: linear-gradient(to right, var(--primaryGradient1), var(--primaryGradient2));
@@ -3099,8 +3096,8 @@ svg.slider-TkfMQL svg {
     background:var(--background2);
 }
 
-
 /*Threads*/
+
 .threadSidebar-1o3BTy{
     border:none;
 }
@@ -3234,6 +3231,42 @@ svg.slider-TkfMQL svg {
 
 .option-3KoAJB[aria-selected=false]:hover{
     background:var(--background3);
+}
+
+
+/*Profile Banner Roles*/
+
+.role-2irmRk{
+    background:var(--background1);
+}
+
+.role-2irmRk:hover{
+    background:var(--background0);
+}
+
+
+/*Settings Profile Card Fix*/
+
+.accountProfileCard-1XCH88{
+    background:var(--background3);
+    width:max-content;
+}
+
+.fieldList-21DyL8{
+    background:var(--background3);
+}
+
+.avatar-1uQSZT {
+    border: 7px solid var(--background3);
+    background-color: var(--background3);
+}
+
+.userInfo-iCloHO .avatar-1uQSZT.wrapper-3t9DeA{
+    position:absolute!important;
+}
+
+.overflowMenuIcon-1h7e8s{
+    margin-right: 10px;
 }
 
 
