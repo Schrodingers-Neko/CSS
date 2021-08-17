@@ -1161,7 +1161,7 @@ svg[name=Nova_Discord] * {
 }
 
 .channel-2QD9_O {
-    overflow-y: visible
+    overflow-y: visible;
 }
 
 .content-20Aix8 {
@@ -3303,4 +3303,12 @@ svg.slider-TkfMQL svg {
 
 .tooltipPointer-3ZfirK{
     border-top-color: var(--background0)!important;
+}
+
+.popoutContainer-1MXdqN.popoutContent-33P_eV{
+    background:var(--background2);
+}
+
+.guildSection-1EoFKd{
+    background:var(--background3);
 }
