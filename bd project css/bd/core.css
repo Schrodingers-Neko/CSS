@@ -3318,3 +3318,14 @@ svg.slider-TkfMQL svg {
     margin-left:-4px;
     border-radius:4px;
 }
+
+/*invite bot*/
+
+.scrollContent-m6ynud.thin-1ybCId.scrollerBase-289Jih,.footer-3ZalXG,.oauth2Wrapper-mHbF5q{
+    background:var(--background3);
+}
+
+.popout-VcNcHB.thin-1ybCId.scrollerBase-289Jih{
+    border: none;
+    background: var(--background3);
+}
