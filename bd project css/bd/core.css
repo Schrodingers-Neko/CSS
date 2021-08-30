@@ -1,6 +1,8 @@
 :root {
-    --background0: #142851;
+    --background0: #142857;
+    --background0_5:#12244B;
     --background1: #102040;
+    --background1_5:#0d1a38;
     --background2: #0A1530;
     --background3: #071025;
     --background4: #030712;
@@ -103,7 +105,7 @@
 .tertiary-aMXF0g,
 .tertiary-aMXF0g:hover {
     background-color: var(--background2);
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .messageContainer-gbhlwo {
@@ -3334,4 +3336,74 @@ svg.slider-TkfMQL svg {
 
 .loadingPopout-qYljDW{
     background:var(--background2);
+}
+
+/*server integrations - followed channels*/
+
+.body-2Enz7L.hasSplash-200jeH{
+    background:var(--background2);
+}
+
+.footer-3OAEzG{
+    background:var(--background2);
+}
+
+.emojiCounter-1BHDd2.base-1x0h_U{
+    background:var(--background1);
+}
+
+.container-_phMUq{
+    background:var(--background2);
+}
+
+.container-_phMUq:hover{
+    background:var(--background1);
+}
+
+.roleRow-30TwGe[role="button"]:hover{
+    background:var(--background1);
+}
+
+.circleButton-3RB01i:hover:not(.roleRowDisableHover-1HiqqT){
+    background:var(--background1);
+}
+
+.circleButton-3RB01i{
+    background:var(--background2);
+}
+
+.circleButton-3RB01i:hover:not(.roleRowDisableHover-1HiqqT){
+    background:var(--background0);
+}
+.titleContainer-2CXtJo,.header-2mZ9Ov,.stickyHeader-hH_ZLl{
+    background:var(--background2);
+}
+
+.memberRow-1wwtfV:hover{
+    background: var(--background1);
+}
+
+.messageContainer-1DiFnQ{
+    background:var(--background1);
+}
+
+.theme-light .messageContainer-1DiFnQ{
+    background:#fff;
+}
+
+
+.tier-2pEkRl .tierHeaderLocked-3S508x.tierHeader-l2pbOh{
+    background:var(--background1_5);
+}
+
+.tier-2pEkRl .tierBody-3aUxuc{
+    background:var(--background1);
+}
+
+.headerDefault-2D4Kcg.header-1oWRg0,.headerClickable-g5d9lT.header-1oWRg0{
+    background:var(--background2);
+}
+
+.auditLog-2ph_aK{
+    border:1px solid var(--background2);
 }
