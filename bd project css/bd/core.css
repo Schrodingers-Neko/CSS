@@ -6773,3 +6773,17 @@ svg.slider-TkfMQL svg {
 .auditLog-2ph_aK{
     border:1px solid var(--background2);
 }
+
+.platform-win .scroller-1Bvpku{
+    padding-top:10px;
+}
+
+.platform-osx .wrapper-3NnKdC {
+    margin-top: 0px;
+    padding-top: 10px;
+    background-color: var(--background3);
+}
+
+.typeMacOS-3EmCyP{
+    display:none;
+}
