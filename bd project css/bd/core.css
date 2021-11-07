@@ -3431,3 +3431,13 @@ svg.slider-TkfMQL svg {
 .typeMacOS-3EmCyP{
     display:none;
 }
+
+/*November 2021 patch*/
+
+.container-2wlB3z{
+    background:var(--background1);
+}
+
+.expandedFolderBackground-3ZDF05,.expandedFolderIconWrapper-3fmTfW,.circleIconButton-hZmpE8{
+    background:var(--background1);
+}
